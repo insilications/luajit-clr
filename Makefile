@@ -16,7 +16,7 @@
 MAJVER=  2
 MINVER=  1
 RELVER=  0
-PREREL=  -beta3
+PREREL=
 VERSION= $(MAJVER).$(MINVER).$(RELVER)$(PREREL)
 ABIVER=  5.1
 
@@ -25,7 +25,7 @@ ABIVER=  5.1
 # Change the installation path as needed. This automatically adjusts
 # the paths in src/luaconf.h, too. Note: PREFIX must be an absolute path!
 #
-export PREFIX= /usr/local
+export PREFIX= /usr
 export MULTILIB= lib
 ##############################################################################
 
